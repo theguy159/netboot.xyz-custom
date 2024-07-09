@@ -2,5 +2,6 @@
 ###
 ### netboot.xyz-custom menu
 ###
-
-sanboot iscsi:192.168.1.7:::1:iqn.2000-01.com.synology:spike.default-target.f3710d05209
+set initiator-iqn iqn.1993-08.org.debian:01:957f89167ae
+sanboot
+iscsi:192.168.1.7:::1:iqn.2000-01.com.synology:spike.default-target.f3710d05209
